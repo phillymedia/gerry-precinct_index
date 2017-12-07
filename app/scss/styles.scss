@@ -1,0 +1,44 @@
+@import 'philly-styles/values';
+@import 'map';
+
+body {
+    font-family: $philly-sans;
+    margin: 0 auto;
+}
+
+.graphicWrapper {
+  padding: 25px 10px;
+  margin: 20px auto;
+  border-top: 1px solid $philly-lightgray;
+  border-bottom: 1px solid $philly-lightgray;
+  max-width: 728px;
+}
+
+.heading {
+  margin: 10px 0;
+  font-size: 22px;
+}
+
+.description {
+  padding: 0;
+  margin: 0;
+  font-family: $philly-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.source {
+    font-size: 13px;
+    font-family: $philly-sans;
+    color: $philly-gray;
+    display: block;
+    text-align: left;
+    padding: 4px 0 0 0;
+    &:first-of-type {
+      padding-top: 20px;
+    }
+}
+
+.credit {
+  text-align: right;
+}
